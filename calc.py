@@ -38,14 +38,13 @@ operation()
         
 while True:    
     more=input("Do you want to perform more peration(Y/N): ")
-    if more=="Y" or "y":
+    if more=='y'or more=='Y':
         operation()
-    elif more=="N" or "n":
+    elif more=='N'or more=='n':
         break
     else:
         print("You enter the wrong input.")
 print("Thank you ",name)
-    
 
 
 
